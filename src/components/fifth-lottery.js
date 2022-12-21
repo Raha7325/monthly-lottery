@@ -6,7 +6,7 @@ class FifthLottery extends Component {
     return(
       <>
         <div className='flex-col mt-[40px] md:mt-0'>
-          <div className='mb-10 px-3 py-1 rounded-md bg-green-200 text-center text-green-400 font-bold'>صندوق ۵ ام</div>
+          <div className='mb-10 px-3 py-1 rounded-md bg-green-200 text-center text-green-400 font-bold'>صندوق ۵ ام <span className='text-xs'>(شروع از ۰۵-۱۰-۱۴۰۱)</span></div>
           <div className='grid grid-cols-3 gap-x-4 gap-y-5 place-items-center'>
           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100 flex items-center justify-center col-span-1'>۳</div>
            <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100 flex items-center justify-center col-span-1'>۲</div>
