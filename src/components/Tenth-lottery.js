@@ -20,12 +20,30 @@ class TenthLottery extends Component {
            <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-rose-400 text-rose-400 bg-rose-100  flex items-center justify-center col-span-1'>۱</div>
            <h5 className='text-xs text-gray-200 pt-2'> </h5>
           </div>             
-          <div className='w-[50px] h-[50px] rounded-[50px]	shadow-md shadow-rose-400 text-rose-400 bg-rose-100 flex items-center justify-center col-span-1'>۶</div>         
-           <div className='w-[50px] h-[50px] rounded-[50px]	shadow-md shadow-rose-400 text-rose-400 bg-rose-100 flex items-center justify-center col-span-1'>۵</div>
-           <div className='w-[50px] h-[50px] rounded-[50px]	shadow-md shadow-rose-400 text-rose-400 bg-rose-100 flex items-center justify-center col-span-1'>۴</div>
-           <div className='w-[50px] h-[50px] rounded-[50px]	shadow-md shadow-rose-400 text-rose-400 bg-rose-100 flex items-center justify-center col-span-1'>۹</div>
-           <div className='w-[50px] h-[50px] rounded-[50px]	shadow-md shadow-rose-400 text-rose-400 bg-rose-100 flex items-center justify-center col-span-1'>۸</div>
-           <div className='w-[50px] h-[50px] rounded-[50px]	shadow-md shadow-rose-400 text-rose-400 bg-rose-100 flex items-center justify-center col-span-1'>۷</div>
+          <div>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-rose-400 text-rose-400 bg-rose-100  flex items-center justify-center col-span-1'>۶</div>
+           <h5 className='text-xs text-white pt-2'> .</h5>
+          </div>            
+          <div>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-rose-400 text-rose-400 bg-rose-100  flex items-center justify-center col-span-1'>۵</div>
+           <h5 className='text-xs text-white pt-2'> .</h5>
+          </div>            
+          <div>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-rose-400 text-rose-400 bg-rose-100  flex items-center justify-center col-span-1'>۴</div>
+           <h5 className='text-xs text-white pt-2'> .</h5>
+          </div>            
+          <div>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-rose-400 text-rose-400 bg-rose-100  flex items-center justify-center col-span-1'>۹</div>
+           <h5 className='text-xs text-white pt-2'> .</h5>
+          </div> 
+          <div>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-rose-400 text-rose-400 bg-rose-100  flex items-center justify-center col-span-1'>۸</div>
+           <h5 className='text-xs text-white pt-2'> .</h5>
+          </div> 
+          <div>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-rose-400 text-rose-400 bg-rose-100  flex items-center justify-center col-span-1'>۷</div>
+           <h5 className='text-xs text-white pt-2'> .</h5>
+          </div> 
            <div className='w-[50px] h-[50px] rounded-[50px]	shadow-md shadow-rose-400 text-rose-400 bg-rose-100 flex items-center justify-center col-span-3'>۱۰</div>
           </div>
         </div>

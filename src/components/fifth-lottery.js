@@ -8,16 +8,43 @@ class FifthLottery extends Component {
         <div className='flex-col mt-[40px] md:mt-0'>
           <div className='mb-10 px-3 py-1 rounded-md bg-green-200 text-center text-green-400 font-bold'>صندوق ۵ ام <span className='text-xs'>(شروع از ۰۵-۱۰-۱۴۰۱)</span></div>
           <div className='grid grid-cols-3 gap-x-4 gap-y-5 place-items-center'>
-          <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100 flex items-center justify-center col-span-1'>۳</div>
-           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100 flex items-center justify-center col-span-1'>۲</div>
-           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100 flex items-center justify-center col-span-1'>۱</div>
-           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100 flex items-center justify-center col-span-1'>۶</div>
-           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100 flex items-center justify-center col-span-1'>۵</div>
-           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100 flex items-center justify-center col-span-1'>۴</div>
-           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100 flex items-center justify-center col-span-1'>۹</div>
-           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100 flex items-center justify-center col-span-1'>۸</div>
-           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100 flex items-center justify-center col-span-1'>۷</div>
-           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100 flex items-center justify-center col-span-3'>۱۰</div>
+          <div>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100  flex items-center justify-center col-span-1'>۳</div>
+           <h5 className='text-xs text-white pt-2'> .</h5>
+          </div>
+          <div>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100  flex items-center justify-center col-span-1'>۲</div>
+           <h5 className='text-xs text-white pt-2'> .</h5>
+          </div>
+          <div>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100  flex items-center justify-center col-span-1'>۱</div>
+           <h5 className='text-xs text-white pt-2'> .</h5>
+          </div>          
+          <div>
+            <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100 flex items-center justify-center col-span-1'>۶</div>
+            <h5 className='text-xs text-gray-200 pt-2'> </h5>
+          </div>          
+          <div>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200  flex items-center justify-center col-span-1'>۵</div>
+           <h5 className='text-xs text-gray-200 pt-2'>۱۴۰۱-۱۰-۰۵</h5>
+          </div>          
+          <div className='flex self-start'>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100  flex items-center justify-center col-span-1'>۴</div>
+           <h5 className='text-xs text-gray-200 pt-2'> </h5>
+          </div>             
+          <div className='flex self-start'>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100  flex items-center justify-center col-span-1'>۹</div>
+           <h5 className='text-xs text-gray-200 pt-2'> </h5>
+          </div>             
+          <div>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100  flex items-center justify-center col-span-1'>۸</div>
+           <h5 className='text-xs text-white pt-2'> .</h5>
+          </div>  
+          <div>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-green-400 text-green-400 bg-green-100  flex items-center justify-center col-span-1'>۷</div>
+           <h5 className='text-xs text-white pt-2'> .</h5>
+          </div>
+           <div className='w-[50px] h-[50px] rounded-[50px]	shadow-md shadow-green-400 text-green-400 bg-green-100 flex items-center justify-center col-span-3'>۱۰</div>
           </div>
         </div>
       </>
