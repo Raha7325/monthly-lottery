@@ -38,7 +38,13 @@ module.exports = {
         100: '#c4b5fd',
         200: '#6d28d9',
         300: '#4c1d95'
-      }
+      },
+      'cyan': {
+        100: '#cffafe',
+        200: '#a5f3fc',
+        300: '#67e8f9',
+        400: '#22d3ee',
+      },
     },
     container: {
 			center: true,

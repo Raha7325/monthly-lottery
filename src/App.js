@@ -3,6 +3,7 @@ import React from 'react';
 import TenthLottery from './components/Tenth-lottery'
 import TwentyFiveLottery from './components/Twenty-five-lottery'
 import FifthLottery from './components/fifth-lottery'
+import FifteenthLottery from './components/fifteenth-lottery'
 
 function App() {
   return (
@@ -16,11 +17,15 @@ function App() {
             <li className='pt-2'>واریزی ها یک روز قبل از تاریخ قرعه کشی انجام شود.</li>
             <li>افرادی که واریزی خود را انجام نداده باشند از قرعه کشی آن روز حذف خواهند شد.</li>
             <li>اگر بنا به هر دلیلی شرکت کننده دو مرحله در واریزی همکاری لازم رو نداشته باشند از صندوق حذف خواهند شد.</li>
-            <li>ماه دوم متعلق  به صاحب صندوق می باشد.</li>
+            <li>ماه اول متعلق  به صاحب صندوق می باشد.</li>
             <li>در حال حاضر قرعه کشی های زیر در حال انجام می باشد:
                 <ul className='px-4 pt-1 list-disc'>
                 <li>۵۰۰ هزار تومان ماهانه  =&gt;  ۵ میلیون تومان</li>
                 <li>۱ میلیون تومان ماهانه  =&gt;  ۱۰ میلیون تومان</li>
+                <li>۲ میلیون تومان ماهانه  =&gt;  ۲۰ میلیون تومان</li>
+                <li>۳ میلیون تومان ماهانه  =&gt;  ۳۰ میلیون تومان</li>
+                <li>۴ میلیون تومان ماهانه  =&gt;  ۴۰ میلیون تومان</li>
+                <li>۵ میلیون تومان ماهانه  =&gt;  ۵۰ میلیون تومان</li>
                 <li>مدت زمان تمام قرعه کشی ها ۱۰ ماه می باشد.</li>
                 </ul>
             </li>
@@ -28,6 +33,7 @@ function App() {
           </div>
           <FifthLottery className='col-span-1' />
           <TenthLottery className='col-span-1' />
+          <FifteenthLottery className='col-span-1' />
           <TwentyFiveLottery className='col-span-1' />
         </div>
       </header>

@@ -5,7 +5,7 @@ class TenthLottery extends Component {
   render() {
     return(
       <>
-        <div className='flex-col my-10 md:my-0'>
+        <div className='flex-col my-10 md:my-0 shadow-md p-4'>
           <div className='mb-10 px-3 py-1 rounded-md bg-rose-200 text-center text-rose-400 font-bold'>صندوق ۱۰ ام <span className='text-xs'>(شروع از ۱۰-۰۹-۱۴۰۱)</span></div>
           <div className='grid grid-cols-3 gap-x-4 gap-y-5 place-items-center'>
           <div>

@@ -5,7 +5,7 @@ class TwentyFiveLottery extends Component {
   render() {
     return(
       <>
-        <div className='flex-col'>
+        <div className='flex-col shadow-md p-4'>
           <div className='mb-10 px-3 py-1 rounded-md bg-amber-200 text-center text-amber-500 font-bold'>صندوق ۲۵ ام <span className='text-xs'>(شروع از ۲۵-۰۸-۱۴۰۱)</span></div>
           <div className='grid grid-cols-3 gap-x-4 gap-y-5 place-items-center'>
           <div>
