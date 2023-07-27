@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class FifthLottery extends Component {
-
   render() {
     return(
       <>
