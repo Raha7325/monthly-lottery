@@ -51,6 +51,12 @@ module.exports = {
         300: '#67e8f9',
         400: '#22d3ee',
       },
+      'fuchsia': {
+        100: '#fbcfe8',
+        200: '#e879f9',
+        300: '#d946ef',
+        400: '#f472b6',
+      },
     },
     container: {
 			center: true,
