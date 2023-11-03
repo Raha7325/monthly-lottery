@@ -1,8 +1,7 @@
 import './style/App.css';
 import React from 'react';
-// import TenthLottery from './components/Tenth-lottery'
-// import TwentyFiveLottery from './components/Twenty-five-lottery'
-// import FifthLottery from './components/fifth-lottery'
+
+import FifthLottery from './components/fifth-lottery'
 import TwelfthLottery from './components/twelfth-lottery'
 import FifteenthLottery from './components/fifteenth-lottery'
 import TwentyFourLottery from './components/twenty-four-lottery'
@@ -33,12 +32,10 @@ function App() {
             </li>
           </ul>
           </div>
-          {/* <FifthLottery className='col-span-1' /> */}
-          {/* <TenthLottery className='col-span-1' /> */}
+          <FifthLottery className='col-span-1' />
           <TwelfthLottery className='col-span-1' />
           <FifteenthLottery className='col-span-1' />
           <TwentyFourLottery className='col-span-1' />
-          {/* <TwentyFiveLottery className='col-span-1' /> */}
         </div>
       </header>
     </div>
