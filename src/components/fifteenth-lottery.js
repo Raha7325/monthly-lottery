@@ -37,8 +37,8 @@ class FifteenthLottery extends Component {
            <h5 className='text-xs text-gray-200 pt-2'>۱۴۰۲-۰۳-۱۵</h5>
           </div>             
           <div>
-           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-cyan-400 text-cyan-400 bg-cyan-100 flex items-center justify-center col-span-1'>۸</div>
-           <h5 className='text-xs text-transparent pt-2'> .</h5>
+           <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200 flex items-center justify-center col-span-1'>۸</div>
+           <h5 className='text-xs text-gray-200 pt-2'>۱۴۰۲-۰۸-۱۵</h5>
           </div>  
           <div>
            <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-cyan-400 text-cyan-400 bg-cyan-100 flex items-center justify-center col-span-1'>۷</div>
