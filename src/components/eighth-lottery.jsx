@@ -13,7 +13,7 @@ class FifthLottery extends Component {
           </div>
           <div>
            <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200 flex items-center justify-center col-span-1'>۲</div>
-           <h5 className='text-xs text-gray-200 pt-2'>۱۴۰۳-۰۲-۰۸</h5>
+           <h5 className='text-xs text-gray-200 pt-2'>۱۴۰۳-۰۳-۰۸</h5>
           </div>
           <div>
            <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200 flex items-center justify-center col-span-1'>۱</div>
