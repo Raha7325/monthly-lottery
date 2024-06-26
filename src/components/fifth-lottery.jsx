@@ -24,7 +24,7 @@ class FifthLottery extends Component {
               <h5 className='text-xs text-gray-200 pt-2'>۱۴۰۲-۱۱-۰۵</h5>
             </div>
             <div>
-              <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200  flex items-center justify-center col-span-1'>۵</div>
+              <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200 flex items-center justify-center col-span-1'>۵</div>
               <h5 className='text-xs text-gray-200 pt-2'>۱۴۰۳-۰۳-۰۵</h5>
             </div>
             <div>
@@ -32,16 +32,16 @@ class FifthLottery extends Component {
               <h5 className='text-xs text-transparent pt-2'> .</h5>
             </div>
             <div>
-              <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200  flex items-center justify-center col-span-1'>۹</div>
+              <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200 flex items-center justify-center col-span-1'>۹</div>
               <h5 className='text-xs text-gray-200 pt-2'>۱۴۰۲-۱۰-۰۵</h5>
             </div>
             <div>
-              <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200  flex items-center justify-center col-span-1'>۸</div>
+              <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200 flex items-center justify-center col-span-1'>۸</div>
               <h5 className='text-xs text-gray-200 pt-2'>۱۴۰۲-۱۲-۰۵</h5>
             </div>
             <div>
-              <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-rose-400 text-rose-400 bg-rose-200 flex items-center justify-center col-span-1'>۷</div>
-              <h5 className='text-xs text-transparent pt-2'> .</h5>
+              <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200 flex items-center justify-center col-span-1'>۷</div>
+              <h5 className='text-xs text-gray-200 pt-2 flex justify-center'>۱۴۰۳-۰۴-۰۵</h5>
             </div>
             <div className='col-span-3'>
               <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200  flex items-center justify-center'>۱۰</div>
