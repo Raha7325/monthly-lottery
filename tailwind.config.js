@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [    
+  content: [
     "./src/**/*.{js,jsx,ts,tsx}",
     './public/**/*.html', './src/**/*.vue',
   ],
@@ -57,17 +57,23 @@ module.exports = {
         300: '#d946ef',
         400: '#f472b6',
       },
+      'teal': {
+        100: '#f0fdfa',
+        200: '#5eead4',
+        300: '#99f6e4',
+        400: '#fff',
+      }
     },
     container: {
-			center: true,
-			padding: {
-				sm: '4.5rem',
-				md: '1rem',
-				lg: '1rem',
-				xl: '3rem',
-				'2xl': '4.5rem',
-			},
-		},
+      center: true,
+      padding: {
+        sm: '4.5rem',
+        md: '1rem',
+        lg: '1rem',
+        xl: '3rem',
+        '2xl': '4.5rem',
+      },
+    },
     extend: {},
   },
   plugins: [],

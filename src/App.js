@@ -5,7 +5,7 @@ import FifthLottery from './components/fifth-lottery'
 import EighthLottery from './components/eighth-lottery'
 import FifteenthLottery from './components/fifteenth-lottery'
 import TwentyLottery from './components/twenty-lottery'
-import TwentyFourLottery from './components/twenty-four-lottery'
+import TenthLottery from './components/tenth-lottery'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <div className='grid grid-cols-1 gap-4 md:grid-cols-3'>
           <div className='col-span-1 md:col-span-3'>
             <h4 className='shadow-lg text-center p-2 bg-violet-100 rounded text-violet-200 text-bold'>شرایط صندوق</h4>
-            <ul className='text-violet-300 text-sm text-justify mx-3 list-disc pt-5'>
+            <ul className='text-violet-300 text-sm text-justify mx-3 px-3 list-disc pt-5'>
               <li>ضمن عرض خوش آمدگویی خدمت همه ی عزیزان شرایط صندوق به شرح زیر می باشد:</li>
               <li className='pt-2'>واریزی ها یک روز قبل از تاریخ قرعه کشی انجام شود.</li>
               <li>افرادی که واریزی خود را انجام نداده باشند از قرعه کشی آن روز حذف خواهند شد.</li>
@@ -37,7 +37,7 @@ function App() {
           <EighthLottery className='col-span-1' />
           <FifteenthLottery className='col-span-1' />
           <TwentyLottery className='col-span-1' />
-          <TwentyFourLottery className='col-span-1' />
+          <TenthLottery className='col-span-1' />
         </div>
       </header>
     </div>
