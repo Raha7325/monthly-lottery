@@ -35,9 +35,9 @@ function App() {
           </div>
           <FifthLottery className='col-span-1' />
           <EighthLottery className='col-span-1' />
+          <TenthLottery className='col-span-1' />
           <FifteenthLottery className='col-span-1' />
           <TwentyLottery className='col-span-1' />
-          <TenthLottery className='col-span-1' />
         </div>
       </header>
     </div>
