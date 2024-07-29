@@ -44,8 +44,8 @@ class FifthLottery extends Component {
               <h5 className='text-xs text-gray-200 pt-2'>۱۴۰۳-۰۴-۰۸</h5>
             </div>
             <div className='col-span-3'>
-              <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-amber-400 text-amber-400 bg-amber-200 flex items-center justify-center'>۱۰</div>
-              <h5 className='text-xs text-transparent pt-2'> .</h5>
+              <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200 flex items-center justify-center'>۱۰</div>
+              <h5 className='text-xs text-gray-200 pt-2 flex justify-center'>۱۴۰۳-۰۵-۰۸</h5>
             </div>
           </div>
         </div>
