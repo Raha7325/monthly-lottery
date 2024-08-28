@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/monthly-lottery/static/css/main.e19cb0f1.css",
-    "main.js": "/monthly-lottery/static/js/main.a0b6ca90.js",
+    "main.css": "/monthly-lottery/static/css/main.f7265d25.css",
+    "main.js": "/monthly-lottery/static/js/main.7d604ab2.js",
     "static/js/787.b384c82a.chunk.js": "/monthly-lottery/static/js/787.b384c82a.chunk.js",
     "index.html": "/monthly-lottery/index.html",
-    "main.e19cb0f1.css.map": "/monthly-lottery/static/css/main.e19cb0f1.css.map",
-    "main.a0b6ca90.js.map": "/monthly-lottery/static/js/main.a0b6ca90.js.map",
+    "main.f7265d25.css.map": "/monthly-lottery/static/css/main.f7265d25.css.map",
+    "main.7d604ab2.js.map": "/monthly-lottery/static/js/main.7d604ab2.js.map",
     "787.b384c82a.chunk.js.map": "/monthly-lottery/static/js/787.b384c82a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e19cb0f1.css",
-    "static/js/main.a0b6ca90.js"
+    "static/css/main.f7265d25.css",
+    "static/js/main.7d604ab2.js"
   ]
 }
