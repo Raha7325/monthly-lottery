@@ -62,6 +62,12 @@ module.exports = {
         200: '#5eead4',
         300: '#99f6e4',
         400: '#fff',
+      },
+      'orange': {
+        100: '#fed7aa',
+        200: '#fdba74',
+        300: '#fb923c',
+        400: '#f97316',
       }
     },
     container: {

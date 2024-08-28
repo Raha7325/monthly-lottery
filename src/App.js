@@ -5,7 +5,7 @@ import EighthLottery from './components/eighth-lottery'
 import FifteenthLottery from './components/fifteenth-lottery'
 import TwentyLottery from './components/twenty-lottery'
 import TenthLottery from './components/tenth-lottery'
-
+import SeventhLottery from './components/seventh-lottery'
 function App() {
   return (
     <div className='App w-full h-full bg-gray-100 px-4 py-8'>
@@ -32,6 +32,7 @@ function App() {
               </li>
             </ul>
           </div>
+          <SeventhLottery className='col-span-1' />
           <EighthLottery className='col-span-1' />
           <TenthLottery className='col-span-1' />
           <FifteenthLottery className='col-span-1' />
