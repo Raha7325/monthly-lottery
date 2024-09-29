@@ -5,11 +5,11 @@ class FifthLottery extends Component {
     return (
       <>
         <div className='flex-col mt-[40px] md:mt-0 shadow-md p-4'>
-          <div className='mb-10 px-3 py-1 rounded-md bg-amber-200 text-center text-amber-400 font-bold'>صندوق ۸ ام <span className='text-xs'>(شروع از ۰۸-۱۰-۱۴۰۲)</span></div>
+          <div className='mb-10 px-3 py-1 rounded-md shadow-gray-200 text-gray-100 bg-gray-200 font-bold'>صندوق ۸ ام <span className='text-xs'>(شروع از ۰۸-۱۰-۱۴۰۲)</span></div>
           <div className='grid grid-cols-3 gap-x-4 gap-y-5 place-items-center'>
             <div>
-              <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-amber-400 text-amber-400 bg-amber-200  flex items-center justify-center col-span-1'>۳</div>
-              <h5 className='text-xs text-transparent pt-2'> .</h5>
+              <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200 flex items-center justify-center col-span-1'>۳</div>
+              <h5 className='text-xs text-gray-200 pt-2'>۱۴۰۳-۰۷-۰۸</h5>
             </div>
             <div>
               <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200 flex items-center justify-center col-span-1'>۲</div>
