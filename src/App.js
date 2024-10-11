@@ -1,7 +1,6 @@
 import './style/App.css';
 import React from 'react';
 
-import EighthLottery from './components/eighth-lottery'
 import FifteenthLottery from './components/fifteenth-lottery'
 import TwentyLottery from './components/twenty-lottery'
 import TenthLottery from './components/tenth-lottery'
@@ -33,7 +32,6 @@ function App() {
             </ul>
           </div>
           <SeventhLottery className='col-span-1' />
-          <EighthLottery className='col-span-1' />
           <TenthLottery className='col-span-1' />
           <FifteenthLottery className='col-span-1' />
           <TwentyLottery className='col-span-1' />
