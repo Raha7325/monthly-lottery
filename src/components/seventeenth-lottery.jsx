@@ -1,53 +1,40 @@
 import React from 'react';
-
+import CircleItem from './CircleItem';
 
 const SeventeenthLottery = () => {
+    const lotteryData = [
+        { number: '۳', label: '.' },
+        { number: '۲', label: '.' },
+        { number: '۱', label: '۱۴۰۳-۰۹-۱۷', isDisabled: true },
+        { number: '۶', label: '.' },
+        { number: '۵', label: '.' },
+        { number: '۴', label: '.' },
+        { number: '۹', label: '.' },
+        { number: '۸', label: '.' },
+        { number: '۷', label: '.' },
+        { number: '۱۰', label: '.', isCentered: true },
+    ]
     return (
-        <div className='flex-col mt-[40px] md:mt-0 shadow-md p-4'>
-            <div className='mb-10 px-3 py-1 rounded-md bg-sky-200 text-center text-sky-400 font-bold'>صندوق ۷ ام <span className='text-xs'>(شروع از ۰۷-۰۶-۱۴۰۳)</span></div>
-            <div className='grid grid-cols-3 gap-x-4 gap-y-5 place-items-center'>
-                <div>
-                    <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-sky-400 text-sky-400 bg-sky-200 flex items-center justify-center col-span-1'>۳</div>
-                    <h5 className='text-xs text-transparent pt-2'> .</h5>
-                </div>
-                <div>
-                    <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-sky-400 text-sky-400 bg-sky-200 flex items-center justify-center col-span-1'>۲</div>
-                    <h5 className='text-xs text-transparent pt-2'> .</h5>
-                </div>
-                <div>
-                    <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200 flex items-center justify-center col-span-1'>۱</div>
-                    <h5 className='text-xs text-gray-200 pt-2'>۱۴۰۳-۰۶-۰۷</h5>
-                </div>
-                <div>
-                    <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-sky-400 text-sky-400 bg-sky-200 flex items-center justify-center col-span-1'>۶</div>
-                    <h5 className='text-xs text-transparent pt-2'> .</h5>
-                </div>
-                <div>
-                    <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-sky-200 text-sky-400 bg-sky-200 flex items-center justify-center col-span-1'>۵</div>
-                    <h5 className='text-xs text-transparent pt-2'> .</h5>
-                </div>
-                <div>
-                    <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-sky-400 text-sky-400 bg-sky-200 flex items-center justify-center col-span-1'>۴</div>
-                    <h5 className='text-xs text-transparent pt-2'> .</h5>
-                </div>
-                <div>
-                    <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-sky-200 text-sky-400 bg-sky-200 flex items-center justify-center col-span-1'>۹</div>
-                    <h5 className='text-xs text-transparent pt-2'> .</h5>
-                </div>
-                <div>
-                    <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-sky-200 text-sky-400 bg-sky-200 flex items-center justify-center col-span-1'>۸</div>
-                    <h5 className='text-xs text-transparent pt-2'> .</h5>
-                </div>
-                <div>
-                    <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-sky-400 text-sky-400 bg-sky-200 flex items-center justify-center col-span-1'>۷</div>
-                    <h5 className='text-xs text-transparent pt-2'> .</h5>
-                </div>
-                <div className='col-span-3'>
-                    <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-sky-400 text-sky-400 bg-sky-200  flex items-center justify-center'>۱۰</div>
-                    <h5 className='text-xs text-transparent pt-2'> .</h5>
-                </div>
+        <div className="flex-col mt-[40px] md:mt-0 shadow-md p-4">
+            <div className="mb-10 px-3 py-1 rounded-md bg-sky-200 text-center text-sky-400 font-bold">
+                صندوق ۱۷ ام <span className="text-xs">(شروع از  ۱۷-۰۹-۱۴۰۳)</span>
+            </div>
+            <div className="grid grid-cols-3 gap-x-4 gap-y-5 place-items-center">
+                {lotteryData.map((item, index) => (
+                    <div key={index}
+                        className={`${item.isCentered ? 'col-span-3 flex justify-center' : ''}`}
+                    >
+                        <CircleItem
+                            number={item.number}
+                            label={item.label}
+                            isDisabled={item.isDisabled}
+                            color="sky"
+                        />
+                    </div>
+
+                ))}
             </div>
         </div>
-    )
+    );
 }
 export default SeventeenthLottery;
