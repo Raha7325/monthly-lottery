@@ -8,7 +8,7 @@ class TenthLottery extends Component {
                 <div className='grid grid-cols-3 gap-x-4 gap-y-5 place-items-center'>
                     <div>
                         <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-gray-200 text-gray-100 bg-gray-200 flex items-center justify-center col-span-1'>۳</div>
-                        <h5 className='text-xs text-gray-200 pt-2'>۱۴۰۳-۹۰-۱۰</h5>
+                        <h5 className='text-xs text-gray-200 pt-2'>۱۴۰۳-۰۹-۱۰</h5>
                     </div>
                     <div>
                         <div className='w-[50px] h-[50px] rounded-[50px] shadow-md shadow-teal-400 text-teal-400 bg-teal-200 flex items-center justify-center col-span-1'>۲</div>
