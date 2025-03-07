@@ -1,5 +1,6 @@
 import React from 'react';
 import CircleItem from './CircleItem';
+import { isDisabled } from '@testing-library/user-event/dist/utils';
 
 const SeventeenthLottery = () => {
     const lotteryData = [
@@ -7,7 +8,7 @@ const SeventeenthLottery = () => {
         { number: '۲', label: '۱۴۰۳-۱۱-۱۷', isDisabled: true },
         { number: '۱', label: '۱۴۰۳-۰۹-۱۷', isDisabled: true },
         { number: '۶', label: '.' },
-        { number: '۵', label: '.' },
+        { number: '۵', label: '۱۴۰۳-۱۲-۱۷', isDisabled: true },
         { number: '۴', label: '.' },
         { number: '۹', label: '.' },
         { number: '۸', label: '.' },
