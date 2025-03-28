@@ -3,6 +3,7 @@ import React from 'react';
 import TenthLottery from './components/tenth-lottery'
 import SeventhLottery from './components/seventh-lottery'
 import SeventeenthLottery from './components/seventeenth-lottery'
+import FifthLottery from './components/fifth-lottery'
 function App() {
   return (
     <div className='App w-full h-full bg-gray-100 px-4 py-8'>
@@ -29,6 +30,7 @@ function App() {
               </li>
             </ul>
           </div>
+          <FifthLottery className='col-span-1' />
           <SeventhLottery className='col-span-1' />
           <TenthLottery className='col-span-1' />
           <SeventeenthLottery className='col-span-1' />
