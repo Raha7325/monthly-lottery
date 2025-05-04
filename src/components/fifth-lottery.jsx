@@ -18,7 +18,7 @@ const SeventeenthLottery = () => {
     return (
         <div className="flex-col mt-[40px] md:mt-0 shadow-md p-4">
             <div className="mb-10 px-3 py-1 rounded-md bg-cyan-200 text-center text-cyan-400 font-bold">
-                صندوق ۰۵ ام <span className="text-xs">(شروع از  ۰۵-۱۲-۱۴۰۳)</span>
+                صندوق ۵ ام <span className="text-xs">(شروع از  ۰۵-۱۲-۱۴۰۳)</span>
             </div>
             <div className="grid grid-cols-3 gap-x-4 gap-y-5 place-items-center">
                 {lotteryData.map((item, index) => (
