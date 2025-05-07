@@ -11,7 +11,7 @@ const SeventeenthLottery = () => {
         { number: '۵', label: '۱۴۰۳-۱۲-۱۷', isDisabled: true },
         { number: '۴', label: '۱۴۰۴−۰۱−۱۷', isDisabled: true  },
         { number: '۹', label: '.' },
-        { number: '۸', label: '.' },
+        { number: '۸', label: '۱۴۰۴−۰۲−۱۷', isDisabled: true },
         { number: '۷', label: '.' },
         { number: '۱۰', label: '۱۴۰۳-۱۰-۱۷', isDisabled: true , isCentered: true },
     ]
