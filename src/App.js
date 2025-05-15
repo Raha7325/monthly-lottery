@@ -3,6 +3,8 @@ import React from 'react';
 import SeventhLottery from './components/seventh-lottery'
 import SeventeenthLottery from './components/seventeenth-lottery'
 import FifthLottery from './components/fifth-lottery'
+import TwentyLottery from './components/TwentyFive-lottery'
+
 function App() {
   return (
     <div className='App w-full h-full bg-gray-100 px-4 py-8'>
@@ -32,6 +34,7 @@ function App() {
           <FifthLottery className='col-span-1' />
           <SeventhLottery className='col-span-1' />
           <SeventeenthLottery className='col-span-1' />
+          <TwentyLottery className='col-span-1' />
         </div>
       </header>
     </div>
