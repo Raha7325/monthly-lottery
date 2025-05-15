@@ -1,6 +1,5 @@
 import React from 'react';
 import CircleItem from './CircleItem';
-import { isDisabled } from '@testing-library/user-event/dist/utils';
 
 const SeventeenthLottery = () => {
     const lotteryData = [

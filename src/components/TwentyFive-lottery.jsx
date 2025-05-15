@@ -5,7 +5,7 @@ const SeventeenthLottery = () => {
     const lotteryData = [
         { number: '۳', label: '.' },
         { number: '۲', label: '.'},
-        { number: '۱', label: '.' },
+        { number: '۱', label: '۱۴۰۴-۰۲-۲۵', isDisabled: true },
         { number: '۶', label: '.' },
         { number: '۵', label: '.' },
         { number: '۴', label: '.' },
