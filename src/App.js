@@ -32,7 +32,6 @@ function App() {
             </ul>
           </div>
           <FifthLottery className='col-span-1' />
-          <SeventhLottery className='col-span-1' />
           <SeventeenthLottery className='col-span-1' />
           <TwentyLottery className='col-span-1' />
         </div>
