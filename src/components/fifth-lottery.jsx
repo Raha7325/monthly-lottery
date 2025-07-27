@@ -4,7 +4,7 @@ import { isDisabled } from '@testing-library/user-event/dist/utils';
 
 const SeventeenthLottery = () => {
     const lotteryData = [
-        { number: '۳', label: '.' },
+        { number: '۳', label: '۱۴۰۴-۰۵-۰۵', isDisabled: true },
         { number: '۲', label: '.'},
         { number: '۱', label: '۱۴۰۳-۱۲-۰۵', isDisabled: true },
         { number: '۶', label: '۱۴۰۴-۰۱-۰۵',  isDisabled: true },
