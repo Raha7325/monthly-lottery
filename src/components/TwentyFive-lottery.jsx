@@ -1,4 +1,3 @@
-import React from 'react';
 import CircleItem from './CircleItem';
 
 const SeventeenthLottery = () => {

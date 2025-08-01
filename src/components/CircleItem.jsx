@@ -1,4 +1,3 @@
-import React from "react";
 
 const CircleItem = ({ number, label, isDisabled, color }) => {
     return (

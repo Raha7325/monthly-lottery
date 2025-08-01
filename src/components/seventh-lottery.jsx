@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-
+import { Component } from 'react';
 class TenthLottery extends Component {
     render() {
         return (
