@@ -3,8 +3,8 @@ import CircleItem from './CircleItem';
 const SeventeenthLottery = () => {
     const lotteryData = [
         { number: '۳', label: '.' },
-        { number: '۲', label: '.' },
-        { number: '۱', label: "۱۴۰۴-۰۷-۱۰", isDisabled: true},
+        { number: '۲', label: "۱۴۰۴-۰۷-۱۰", isDisabled: true},
+        { number: '۱'},
         { number: '۶', label: "۱۴۰۴-۰۶-۱۰", isDisabled: true },
         { number: '۵', label: '.' },
         { number: '۴', label: '.' },
