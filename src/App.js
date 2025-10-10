@@ -1,8 +1,8 @@
 import './style/App.css';
-import React from 'react';
 import FifthLottery from './components/fifth-lottery'
 import TwentyLottery from './components/TwentyFive-lottery'
 import TenthLottery from './components/Tenth-lottery'
+import FifteenthLottery from './components/Fifteenth-lottery'
 
 function App() {
   return (
@@ -32,6 +32,7 @@ function App() {
           </div>
           <FifthLottery className='col-span-1' />
           <TenthLottery className='col-span-1' />
+          <FifteenthLottery className='col-span-1' />
           <TwentyLottery className='col-span-1' />
         </div>
       </header>
