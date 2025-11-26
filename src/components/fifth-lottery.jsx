@@ -10,12 +10,12 @@ const SeventeenthLottery = () => {
     { number: "۴", label: "۱۴۰۴-۰۴-۰۵", isDisabled: true },
     { number: "۹", label: "۱۴۰۴-۰۶-۰۵", isDisabled: true },
     { number: "۸", label: "۱۴۰۴-۰۲-۰۵", isDisabled: true },
-    { number: "۷", label: "." },
+    { number: "۷", label: "۱۴۰۴-۰۸-۰۵", isDisabled: true },
     { number: "۱۰",label: "۱۴۰۴-۰۷-۰۵", isDisabled: true, isCentered: true },
   ];
   return (
     <div className="flex-col mt-[40px] md:mt-0 shadow-md p-4">
-      <div className="mb-10 px-3 py-1 rounded-md bg-cyan-200 text-center text-cyan-400 font-bold">
+      <div className="mb-10 px-3 py-1 rounded-md bg-gray-200 text-center text-gray-400 font-bold">
         صندوق ۵ ام <span className="text-xs">(شروع از ۰۵-۱۲-۱۴۰۳)</span>
       </div>
       <div className="grid grid-cols-3 gap-x-4 gap-y-5 place-items-center">
