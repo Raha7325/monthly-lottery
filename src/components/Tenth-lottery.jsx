@@ -11,7 +11,7 @@ const SeventeenthLottery = () => {
         { number: '۹', label: "۱۴۰۴-۰۸-۱۰", isDisabled: true  },
         { number: '۸', label: '.' },
         { number: '۷', label: "۱۴۰۴-۰۹-۱۰", isDisabled: true  },
-        { number: '۱۰', label: '.', isCentered: true},
+        { number: '۱۰', label: '۱۴۰۴-۱۰-۱۰', isDisabled: true, isCentered: true },
     ]
     return (
         <div className="flex-col mt-[40px] md:mt-0 shadow-md p-4">
