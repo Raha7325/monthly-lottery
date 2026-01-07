@@ -2,6 +2,7 @@ import './style/App.css';
 import TwentyLottery from './components/TwentyFive-lottery'
 import TenthLottery from './components/Tenth-lottery'
 import FifteenthLottery from './components/Fifteenth-lottery'
+import SeventhLottery from './components/seventh-lottery'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
               </li>
             </ul>
           </div>
+          <SeventhLottery />
           <TenthLottery className='col-span-1' />
           <FifteenthLottery className='col-span-1' />
           <TwentyLottery className='col-span-1' />
